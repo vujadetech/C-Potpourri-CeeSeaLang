@@ -4,7 +4,7 @@
 * Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages of a book.
 
 
-* The passes of a Compiler (Fig 1-1, p2).[1]
+* The passes of a Compiler (Fig 1-1, p2). [1]
     * *Program,		Function*
     * cc, Driver program
     * cpp, C preprocessor (pass 1)
