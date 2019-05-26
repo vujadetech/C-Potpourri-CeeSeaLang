@@ -1,8 +1,8 @@
 
 ### Notes, Holub's "The C companion"
 
-* Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages of a[^1]: stuff book.
-[^1]: here's the note.
+* Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages[1] of a book.
+[1]: footnote
 
 * The passes of a Compiler (Fig 1-1, p2). 
     * *Program,		Function*
