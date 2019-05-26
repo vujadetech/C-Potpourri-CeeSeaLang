@@ -1,11 +1,12 @@
 
 ### Notes, Holub's "The C companion"
 
-* Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages of a[^1] (stuff here) book.
+* Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages of a[^1]: stuff book.
+[^1]: here's the note.
 
-* The passes of a Compiler (Fig 1-1, p2).
+* The passes of a Compiler (Fig 1-1, p2). 
     * *Program,		Function*
-    * cc, Driver program
+    * cc, Driver program 
     * cpp, C preprocessor (pass 1)
     * c0, C compiler pass2
     * c1, C compiler pass3
