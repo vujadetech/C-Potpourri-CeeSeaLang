@@ -1,12 +1,12 @@
 
 ### Notes, Holub's "The C companion"
 
-* Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages[1] of a book.
-[1]: footnote
+* Alignment: Chapter 3 has an ingenious analogy of word alignment to explain why even boundaries are needed by comparing it to storing a number on facing pages of a book.
 
-* The passes of a Compiler (Fig 1-1, p2). 
+
+* The passes of a Compiler (Fig 1-1, p2).[1]
     * *Program,		Function*
-    * cc, Driver program 
+    * cc, Driver program
     * cpp, C preprocessor (pass 1)
     * c0, C compiler pass2
     * c1, C compiler pass3
@@ -14,12 +14,12 @@
     * as, Assembler
     * ld, Linker
     * ar, Librarian (archive)
-    * 
-    * I left the masm related off since I don't use it. Hopefully that won't bother ~~my mancrush~~ retired Microsoft CEO Steve Ballmer. :D
-    
-    
+    *
+[1]: I left the masm related off since I don't use it. Hopefully that won't bother ~~my mancrush~~ retired Microsoft CEO Steve Ballmer. :D
 
-    
+
+
+
 * END
 
 * Table example from adam-p's Markdown cheatsheet:
