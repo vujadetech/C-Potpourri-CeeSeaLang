@@ -7,11 +7,7 @@ int nc = 0;
 int
 main ()
 {
-
-  // int c;
-  //while ( ( c = getchar ()) != EOF )
-    //nc++;
-
+  
   for ( int c; (c = getchar()) != EOF; ++nc )
     ;
   PP_INT(nc);

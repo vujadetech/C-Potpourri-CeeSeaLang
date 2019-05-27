@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "utils/utils.h"
-#define MAXLINE 8
+#define MAXLINE 80
 /* maximum input line length */
 int getline_ (char line[], int maxline);
 void copy (char to[], char from[]);
