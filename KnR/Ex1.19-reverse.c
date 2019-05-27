@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include "utils/utils.h"
+// #include <string.h>
+#include "../include/utils.h"
 
 #define MAXLINE 80
 
@@ -20,9 +20,10 @@ main() {
   PP_INT(k);
   */
 
-  while ( (length = getline_ (line, MAXLINE)) > 0 ) {
-    str_rev(line);
-    putline(line);
+  while ( (length = getline_vt (line, MAXLINE)) > 0 ) {
+    strrev_vt(line);
+    printf("%s", line);
+  //  putline(line);
   }
 
 }

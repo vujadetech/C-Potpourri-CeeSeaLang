@@ -8,7 +8,7 @@ main() {
   int len;
   char line[ MAXLINE ];
   while ( (len = getline_vt(line, MAXLINE)) > 0 ) {
-    if ( len > MAX_LEN ) printf("%s", line);
+    if ( len > MAX_LEN ) printf( "%s", line );
   }
   return 0;
 }

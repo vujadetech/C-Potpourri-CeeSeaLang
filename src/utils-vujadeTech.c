@@ -2,6 +2,7 @@
 #include <string.h>
 #include "../include/utils.h"
 
+// Convenience utils:
 void pf_int(const char * str, int x) {
   // printf("default buf size = %d\n", DEFAULT_BUFFER_SIZE);
   char str_formatted[ DEFAULT_BUFFER_SIZE ] = "";
@@ -10,6 +11,7 @@ void pf_int(const char * str, int x) {
   if (pf_ret < 0) { printf("error in pf_int"); }
 }
 
+// Reimplementation of C builtins:
 size_t strlen_vt(const char * str) {
   size_t len = 0;
   for ( const char* ch = str; *ch++ != '\0' ; len++)
@@ -43,13 +45,28 @@ getline_vt (char s[], int lim)
 
 /* copy: copy 'from' into 'to'; assume to is big enough */
 void
-copy (char to[], char from[])
+copy_vt (char to[], char from[])
 {
   int i;
   i = 0;
   while ((to[i] = from[i]) != '\0')
     ++i;
 }
+
+char * strrev_vt( char s[] ) {
+  int n = strlen(s) - 1; // s[0] ...s[length - 1]
+  for( int i = 0; i < n / 2; i++ ) {
+    swap_ch( &s[i], &s[n - i] );
+  }
+  return s;
+}
+
+void
+swap_ch( char * px, char *py ) { // Vuja de Tech
+  char temp = *px;
+  *px = *py;
+  *py = temp; }
+
 /*
 int main() {
   pf_int("x = ", 42);

@@ -7,7 +7,9 @@
 
 void pf_int( const char *, int );
 int getline_vt( char [], int );
-void copy( char to[], char from[] );
-//void pr_length_line( int , char[] );
+void copy_vt( char to[], char from[] );
+char * strrev_vt( char [] );
+void swap_vt( int * , int * ); // Vuja de Tech
+void swap_ch( char *, char* );
 
 #endif
